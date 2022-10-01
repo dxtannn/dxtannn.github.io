@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>
+      Ding Xiang's Bio
+    </title>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand h1" href="#"><img src="img/file-person.svg" class="px-2">My Profile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#profile_pic">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hobbies">Hobbies</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Favourite animals
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#cat">Cat</a></li>
+                <li><a class="dropdown-item" href="#panda">Panda</a></li>
+                <li><a class="dropdown-item" href="#hamster">Hamster</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#game">Play a game</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="card text-center rounded-0">
+      <img src="img/marita-kavelashvili-ugnrXk1129g-unsplash.jpg" class="card-img rounded-0" alt="">
+      <div class="card-body card-img-overlay d-flex justify-content-center align-items-center">
+        <div>
+          <h5 class="card-title fs-1">Start exploring</h5>
+          <p class="card-text">Scroll down or click the button.</p>
+          <a href="#profile_pic" class="btn btn-warning">Continue</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="d-flex justify-content-center align-items-center py-5">
+        <img src="img/photo1659022523.jpeg" style="max-width: 300px; margin-right: 100px;" class="rounded-circle" id="profile_pic">
+        <p>
+          I am a year 2 Information Systems undergraduate at SMU.
+        </p>
+      </div>
+      <div id="hobbies" class="row bg-secondary p-5">
+        <div class="col-3">
+          <h2 class="text-white">My Hobbies</h2>
+        </div>
+        <div class="col-9">
+          <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1">
+            <div class="col p-3">
+              <div class="card h-100">
+                <img src="img/jefferson-santos-fCEJGBzAkrU-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Guitar</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col p-3">
+              <div class="card h-100">
+                <img src="img/jenny-hill-mQVWb7kUoOE-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Running</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col p-3">
+              <div class="card h-100">
+                <img src="img/toomas-tartes-Yizrl9N_eDA-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Hiking</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col p-3">
+              <div class="card h-100">
+                <img src="img/sam-pak-X6QffKLwyoQ-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Gaming</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-bg-dark py-3 text-center">
+        <h1 class="display-3">My Favourite Animals</h1>
+      </div>
+      <div class="row bg-dark pb-5">
+        <div class="col col-lg-6 mx-auto">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="cat" data-bs-interval="5000">
+                <img src="img/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg" class="d-block w-100 opacity-50" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cat</h5>
+                  <p>Cute furball. <del>They are bossy creatures.</del></p>
+                </div>
+              </div>
+              <div class="carousel-item" id="panda" data-bs-interval="5000">
+                <img src="img/jay-wennington-s-fD5Tpew2k-unsplash.jpg" class="d-block w-50 mx-auto opacity-50" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Panda</h5>
+                  <p>Eats and sleeps alot.</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="hamster" data-bs-interval="5000">
+                <img src="img/ricky-kharawala-adK3Vu70DEQ-unsplash.jpg" class="d-block w-100 opacity-50" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hamster</h5>
+                  <p>I will name my hamster Maple.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-warning p-5">
+      <div class="card text-center py-5 text-bg-success" id="game">
+        <div class="card-body">
+          <h5 class="card-title">Hangman game</h5>
+          <p class="card-text">Before you leave, challenge and test your skill!</p>
+          <a href="hangman/index.html" class="btn btn-lg btn-danger">Play</a>
+          <a href="#" class="btn btn-lg btn-warning disabled">No thank you</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-bg-secondary text-center">
+      <p class="mb-0">&copy 2022. DingXiang.</p>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>
